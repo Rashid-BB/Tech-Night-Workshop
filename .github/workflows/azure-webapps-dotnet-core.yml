@@ -161,7 +161,7 @@ jobs:
           app-settings-json: ${{ secrets.APP_SETTINGS }}
           connection-strings-json: ${{ secrets.CONNECTION_STRINGS }}
 
-      #TODO: Add action to log out of Azure
+      #TODO: Add action to log out of Azure test
       - name: Log out of Azure
         run: az logout
 
